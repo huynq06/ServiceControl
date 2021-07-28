@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ConnectALS" Class="ConnectAlsContextDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=10.10.1.10;Initial Catalog=ConnectALS;User ID=sa" SettingsObjectName="TASK.DATA.Properties.Settings" SettingsPropertyName="ConnectALSConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.EXP_AWB" Member="EXP_AWBs">
+    <Type Name="EXP_AWB">
+      <Column Name="AWBID" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="WAREHOUSE" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="AWBNO" Type="System.String" DbType="VarChar(12)" CanBeNull="true" />
+      <Column Name="BOOKED_PIECES" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RECEIVED_STATUS" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="RECEIVED_DATETIME" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="RECEIVED_PIECES" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DEPARTED_STATUS" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="DEPARTED_DATETIME" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="DEPARTED_PIECES" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CREATED_AT" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LAST_CHANGED_AT" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UPDATED_AT" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UPDATED_BOOKING" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SHC" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="WEIGHT" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="USER_ACTION" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

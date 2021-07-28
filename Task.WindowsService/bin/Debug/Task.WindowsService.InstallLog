@@ -1,0 +1,30 @@
+﻿Installing assembly 'D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Task.WindowsService.exe'.
+Affected parameters are:
+   i = 
+   logfile = D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Task.WindowsService.InstallLog
+   assemblypath = D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Task.WindowsService.exe
+   logtoconsole = 
+Installing service MyWindowsService...
+Service MyWindowsService has been successfully installed.
+Creating EventLog source MyWindowsService in log Application...
+Committing assembly 'D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Task.WindowsService.exe'.
+Affected parameters are:
+   i = 
+   logfile = D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Task.WindowsService.InstallLog
+   assemblypath = D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Task.WindowsService.exe
+   logtoconsole = 
+Installing assembly 'D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Task.WindowsService.exe'.
+Affected parameters are:
+   i = 
+   logfile = D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Task.WindowsService.InstallLog
+   assemblypath = D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Task.WindowsService.exe
+   logtoconsole = 
+Installing service MyWindowsService...
+Creating EventLog source MyWindowsService in log Application...
+Rolling back assembly 'D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Task.WindowsService.exe'.
+Affected parameters are:
+   i = 
+   logfile = D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Task.WindowsService.InstallLog
+   assemblypath = D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Task.WindowsService.exe
+   logtoconsole = 
+Restoring event log to previous state for source MyWindowsService.

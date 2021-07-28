@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C9AEC741-2123-49BC-BEAD-5FDF5543FB7C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TASK.Services</RootNamespace>
+    <AssemblyName>TASK.Services</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AsyncHermesService.cs" />
+    <Compile Include="CheckCloseAwbService.cs" />
+    <Compile Include="CheckCloseFlightService.cs" />
+    <Compile Include="CheckHawbBQLService.cs" />
+    <Compile Include="CheckProcessAwbService.cs" />
+    <Compile Include="CheckProcessPXKService.cs" />
+    <Compile Include="CloseIssueService.cs" />
+    <Compile Include="CreateIssueService.cs" />
+    <Compile Include="CreatFlupService.cs" />
+    <Compile Include="CutOffTimeService.cs" />
+    <Compile Include="FlightControlService.cs" />
+    <Compile Include="FormService.cs" />
+    <Compile Include="GetFlightDenService.cs" />
+    <Compile Include="GetFLightDiService.cs" />
+    <Compile Include="HttpRequest.cs" />
+    <Compile Include="IssueService.cs" />
+    <Compile Include="Issue_DetailService.cs" />
+    <Compile Include="NotifyOverTimeService.cs" />
+    <Compile Include="NotifyThresholdService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PXKService.cs" />
+    <Compile Include="ServiceTest.cs" />
+    <Compile Include="SHCHawbService.cs" />
+    <Compile Include="SpecialHandlingCodeService.cs" />
+    <Compile Include="SyncTruckIDService.cs" />
+    <Compile Include="SyncTruckMonthlyService.cs" />
+    <Compile Include="TrackStatusCallTruckService.cs" />
+    <Compile Include="UpdateAwbAlsxImformationService.cs" />
+    <Compile Include="UpdateSortValueService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DATAACCESS\DATAACCESS.csproj">
+      <Project>{55fa651d-376b-4a7e-ba5b-1d933e840f00}</Project>
+      <Name>DATAACCESS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DATABASE\DATABASE.csproj">
+      <Project>{79E734F2-EA8D-44A9-8080-CE24D6095E86}</Project>
+      <Name>DATABASE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PluggableModulesInterface\PluggableModulesInterface.csproj">
+      <Project>{ae159ce2-bccd-4383-9451-d37cd9afd5f7}</Project>
+      <Name>PluggableModulesInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StorageManagement\StorageManagement.csproj">
+      <Project>{6a073c67-0262-4880-acf8-bc96ea606e4a}</Project>
+      <Name>StorageManagement</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TASK.DATA\TASK.DATA.csproj">
+      <Project>{ae956ed0-ca55-42b5-9a72-371a5c9b74c3}</Project>
+      <Name>TASK.DATA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TASK.Model\TASK.Model.csproj">
+      <Project>{a40b539e-8dac-4900-a535-77104a90a981}</Project>
+      <Name>TASK.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TASK.Settings\TASK.Settings.csproj">
+      <Project>{09e6c3f9-fe33-47ca-a173-5a17089dd14d}</Project>
+      <Name>TASK.Settings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utils\Utils.csproj">
+      <Project>{348db532-0cd9-43e7-a420-60f30710a2f6}</Project>
+      <Name>Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

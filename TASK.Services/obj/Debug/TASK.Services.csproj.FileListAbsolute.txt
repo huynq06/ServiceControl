@@ -1,0 +1,50 @@
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\obj\Debug\TASK.Services.csprojResolveAssemblyReference.cache
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\bin\Debug\TASK.Services.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\bin\Debug\TASK.Services.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\bin\Debug\Newtonsoft.Json.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\bin\Debug\PluggableModulesInterface.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\bin\Debug\StorageManagement.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\bin\Debug\TASK.DATA.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\bin\Debug\TASK.Model.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\bin\Debug\TASK.Settings.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\bin\Debug\Utils.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\bin\Debug\PluggableModulesInterface.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\bin\Debug\StorageManagement.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\bin\Debug\TASK.DATA.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\bin\Debug\TASK.Model.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\bin\Debug\TASK.Settings.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\bin\Debug\Utils.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\bin\Debug\Newtonsoft.Json.xml
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\obj\Debug\TASK.Services.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\obj\Debug\TASK.Services.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\bin\Debug\DATAACCESS.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\bin\Debug\DATABASE.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\bin\Debug\DATAACCESS.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\bin\Debug\DATABASE.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\obj\Debug\TASK.Services.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\obj\Debug\TASK.Services.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\bin\Debug\TASK.Services.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\bin\Debug\TASK.Services.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\bin\Debug\DATAACCESS.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\bin\Debug\DATABASE.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\bin\Debug\Newtonsoft.Json.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\bin\Debug\PluggableModulesInterface.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\bin\Debug\StorageManagement.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\bin\Debug\TASK.DATA.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\bin\Debug\TASK.Model.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\bin\Debug\TASK.Settings.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\bin\Debug\Utils.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\bin\Debug\DATAACCESS.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\bin\Debug\DATABASE.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\bin\Debug\PluggableModulesInterface.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\bin\Debug\StorageManagement.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\bin\Debug\TASK.DATA.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\bin\Debug\TASK.Model.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\bin\Debug\TASK.Settings.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\bin\Debug\Utils.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\bin\Debug\Newtonsoft.Json.xml
+D:\Dev\ALSC.TASKMANAGER\TASK.Services\obj\Debug\TASK.Services.csprojResolveAssemblyReference.cache

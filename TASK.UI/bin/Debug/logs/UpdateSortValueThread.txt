@@ -1,0 +1,7 @@
+=========2021-03-17 21:01:11=========
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at TASK.Services.UpdateSortValueService.UpdateSortValueCallTruck() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\UpdateSortValueService.cs:line 178
+   at TASK.Business.StaticThread.UpdateSortValueThread.DoWork() in D:\Dev\ALSC.TASKMANAGER\TASK.Business\StaticThread\UpdateSortValueThread.cs:line 30
+

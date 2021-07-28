@@ -1,0 +1,50 @@
+=========2020-06-05 06:15:19=========
+System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TASK.Services.HttpRequest.Execute(Object obj, String verb, String caller, Boolean option, String issueKey, Boolean& check) in C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\HttpRequest.cs:line 70
+
+=========2020-06-05 06:15:20=========
+System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TASK.Services.HttpRequest.Execute(Object obj, String verb, String caller, Boolean option, String issueKey, Boolean& check) in C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\HttpRequest.cs:line 70
+
+=========2020-06-05 06:15:20=========
+System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TASK.Services.HttpRequest.Execute(Object obj, String verb, String caller, Boolean option, String issueKey, Boolean& check) in C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\HttpRequest.cs:line 70
+
+=========2020-06-05 06:15:21=========
+System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TASK.Services.HttpRequest.Execute(Object obj, String verb, String caller, Boolean option, String issueKey, Boolean& check) in C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\HttpRequest.cs:line 70
+
+=========2020-06-05 06:15:29=========
+System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TASK.Services.HttpRequest.Execute(Object obj, String verb, String caller, Boolean option, String issueKey, Boolean& check) in C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\HttpRequest.cs:line 70
+
+=========2020-06-05 06:15:40=========
+System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TASK.Services.HttpRequest.Execute(Object obj, String verb, String caller, Boolean option, String issueKey, Boolean& check) in C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\HttpRequest.cs:line 70
+
+=========2020-06-05 06:15:40=========
+System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TASK.Services.HttpRequest.Execute(Object obj, String verb, String caller, Boolean option, String issueKey, Boolean& check) in C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\HttpRequest.cs:line 70
+
+=========2020-06-05 06:15:41=========
+System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TASK.Services.HttpRequest.Execute(Object obj, String verb, String caller, Boolean option, String issueKey, Boolean& check) in C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\HttpRequest.cs:line 70
+
+=========2020-06-05 06:15:42=========
+System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TASK.Services.HttpRequest.Execute(Object obj, String verb, String caller, Boolean option, String issueKey, Boolean& check) in C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\HttpRequest.cs:line 70
+
+=========2020-06-05 06:15:43=========
+System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TASK.Services.HttpRequest.Execute(Object obj, String verb, String caller, Boolean option, String issueKey, Boolean& check) in C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.Services\HttpRequest.cs:line 70
+

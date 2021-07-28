@@ -1,0 +1,30 @@
+=========2020-06-05 06:15:19=========
+{"transition":{"id":"61"}}-----ALSCKT-2318 CloseIssue
+
+=========2020-06-05 06:15:20=========
+{"transition":{"id":"61"}}-----ALSCKT-2389 CloseIssue
+
+=========2020-06-05 06:15:20=========
+{"transition":{"id":"61"}}-----ALSCKT-2711 CloseIssue
+
+=========2020-06-05 06:15:21=========
+{"transition":{"id":"61"}}-----ALSCKT-2902 CloseIssue
+
+=========2020-06-05 06:15:29=========
+{"transition":{"id":"61"}}-----ALSCKT-3059 CloseIssue
+
+=========2020-06-05 06:15:40=========
+{"transition":{"id":"51"}}-----ALSCKT-1755 CloseIssue
+
+=========2020-06-05 06:15:40=========
+{"transition":{"id":"51"}}-----ALSCKT-2046 CloseIssue
+
+=========2020-06-05 06:15:41=========
+{"transition":{"id":"51"}}-----ALSCKT-2251 CloseIssue
+
+=========2020-06-05 06:15:42=========
+{"transition":{"id":"51"}}-----ALSCKT-2750 CloseIssue
+
+=========2020-06-05 06:15:43=========
+{"transition":{"id":"51"}}-----ALSCKT-2839 CloseIssue
+

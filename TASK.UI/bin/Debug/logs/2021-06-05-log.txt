@@ -1,0 +1,4 @@
+=========2021-06-05 23:11:25=========
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at TASK.Services.CreatFlupService.ProcessData() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\CreatFlupService.cs:line 79
+

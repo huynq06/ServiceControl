@@ -1,0 +1,68 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\obj\Debug\TASK.UI.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\obj\Debug\TASK.UI.Properties.Resources.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\obj\Debug\TASK.UI.csproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\obj\Debug\TASK.UI.FrmAppConfig.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.UI.exe.config
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.UI.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.UI.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.Settings.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\Utils.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.Settings.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\Utils.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\obj\Debug\TASK.UI.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\obj\Debug\TASK.UI.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\PluggableModulesInterface.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\StorageManagement.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.Business.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\Newtonsoft.Json.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\PluggableModulesInterface.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\StorageManagement.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.Business.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\Newtonsoft.Json.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\obj\Debug\TASK.UI.FrmMain.resources
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.Services.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.DATA.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.Services.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.DATA.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.Model.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.Model.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\DATAACCESS.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\DATABASE.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\DATAACCESS.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\TASK.UI\bin\Debug\DATABASE.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.UI.exe.config
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.UI.exe
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.UI.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\PluggableModulesInterface.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\StorageManagement.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.Business.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.DATA.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.Settings.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\Utils.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\Newtonsoft.Json.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.Services.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\DATAACCESS.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.Model.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\DATABASE.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\PluggableModulesInterface.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\StorageManagement.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.Business.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.DATA.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.Settings.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\Utils.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\Newtonsoft.Json.xml
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.Services.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\DATAACCESS.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\TASK.Model.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\bin\Debug\DATABASE.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\obj\Debug\TASK.UI.FrmAppConfig.resources
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\obj\Debug\TASK.UI.FrmMain.resources
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\obj\Debug\TASK.UI.Properties.Resources.resources
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\obj\Debug\TASK.UI.csproj.GenerateResource.Cache
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\obj\Debug\TASK.UI.exe
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\obj\Debug\TASK.UI.pdb
+D:\Dev\ALSC.TASKMANAGER\TASK.UI\obj\Debug\TASK.UI.csprojResolveAssemblyReference.cache

@@ -1,0 +1,158 @@
+=========2020-07-09 14:52:43=========
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-00904: "L"."LAGI_FLIGHT_DATE_IN": invalid identifier
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   at DATABASE.OracleHelper.ExecuteReader(OracleConnection connection, OracleTransaction transaction, CommandType commandType, String commandText, OracleParameter[] commandParameters, OracleConnectionOwnership connectionOwnership) in C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\DATABASE\OracleHelper.cs:line 890
+   at DATABASE.OracleHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, OracleParameter[] commandParameters) in C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\DATABASE\OracleHelper.cs:line 942
+   at DATABASE.OracleHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText) in C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\DATABASE\OracleHelper.cs:line 911
+   at DATABASE.OracleProvider.GetScriptOracleDataReader(String script) in C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\DATABASE\OracleProvider.cs:line 151
+   at DATAACCESS.CheckAwbReceiveAccess.CheckMoveAwb(String awb, String dateIn) in D:\Dev\ALSC.TASKMANAGER\DATAACCESS\CheckAwbReceiveAccess.cs:line 66
+   at TASK.Services.SpecialHandlingCodeService.CheckReciveSHC() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\SpecialHandlingCodeService.cs:line 40
+   at TASK.Business.StaticThread.SpecialHandlingCodeThreadManagement.DoWork() in D:\Dev\ALSC.TASKMANAGER\TASK.Business\StaticThread\SpecialHandlingCodeThreadManagement.cs:line 29
+
+=========2020-09-10 00:08:30=========
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-00923: FROM keyword not found where expected
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   at DATABASE.OracleHelper.ExecuteReader(OracleConnection connection, OracleTransaction transaction, CommandType commandType, String commandText, OracleParameter[] commandParameters, OracleConnectionOwnership connectionOwnership) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleHelper.cs:line 890
+   at DATABASE.OracleHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, OracleParameter[] commandParameters) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleHelper.cs:line 942
+   at DATABASE.OracleHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleHelper.cs:line 911
+   at DATABASE.OracleProvider.GetScriptOracleDataReader(String script) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleProvider.cs:line 151
+   at DATAACCESS.PXKAccess.GetPXKHermes(List`1 pxks) in D:\Dev\ALSC.TASKMANAGER\DATAACCESS\PXKAccess.cs:line 69
+   at TASK.Services.PXKService.ProcessData() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\PXKService.cs:line 44
+   at TASK.Services.PXKService.CheckProcessPXK() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\PXKService.cs:line 20
+   at TASK.Business.StaticThread.PXKThreadManagement.DoWork() in D:\Dev\ALSC.TASKMANAGER\TASK.Business\StaticThread\PXKThreadManagement.cs:line 29
+
+=========2020-09-10 00:08:41=========
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-00923: FROM keyword not found where expected
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   at DATABASE.OracleHelper.ExecuteReader(OracleConnection connection, OracleTransaction transaction, CommandType commandType, String commandText, OracleParameter[] commandParameters, OracleConnectionOwnership connectionOwnership) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleHelper.cs:line 890
+   at DATABASE.OracleHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, OracleParameter[] commandParameters) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleHelper.cs:line 942
+   at DATABASE.OracleHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleHelper.cs:line 911
+   at DATABASE.OracleProvider.GetScriptOracleDataReader(String script) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleProvider.cs:line 151
+   at DATAACCESS.PXKAccess.GetPXKHermes(List`1 pxks) in D:\Dev\ALSC.TASKMANAGER\DATAACCESS\PXKAccess.cs:line 69
+   at TASK.Services.PXKService.ProcessData() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\PXKService.cs:line 44
+   at TASK.Services.PXKService.CheckProcessPXK() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\PXKService.cs:line 20
+   at TASK.Business.StaticThread.PXKThreadManagement.DoWork() in D:\Dev\ALSC.TASKMANAGER\TASK.Business\StaticThread\PXKThreadManagement.cs:line 29
+
+=========2020-09-12 11:05:06=========
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-00936: missing expression
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   at DATABASE.OracleHelper.ExecuteReader(OracleConnection connection, OracleTransaction transaction, CommandType commandType, String commandText, OracleParameter[] commandParameters, OracleConnectionOwnership connectionOwnership) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleHelper.cs:line 890
+   at DATABASE.OracleHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, OracleParameter[] commandParameters) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleHelper.cs:line 942
+   at DATABASE.OracleHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleHelper.cs:line 911
+   at DATABASE.OracleProvider.GetScriptOracleDataReader(String script) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleProvider.cs:line 151
+   at DATAACCESS.PXKAccess.GetPXKHermes(List`1 pxks) in D:\Dev\ALSC.TASKMANAGER\DATAACCESS\PXKAccess.cs:line 45
+   at TASK.Services.PXKService.ProcessData() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\PXKService.cs:line 99
+   at TASK.Services.PXKService.CheckProcessPXK() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\PXKService.cs:line 20
+   at TASK.Business.StaticThread.PXKThreadManagement.DoWork() in D:\Dev\ALSC.TASKMANAGER\TASK.Business\StaticThread\PXKThreadManagement.cs:line 29
+
+=========2020-09-12 11:05:18=========
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-00936: missing expression
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   at DATABASE.OracleHelper.ExecuteReader(OracleConnection connection, OracleTransaction transaction, CommandType commandType, String commandText, OracleParameter[] commandParameters, OracleConnectionOwnership connectionOwnership) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleHelper.cs:line 890
+   at DATABASE.OracleHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, OracleParameter[] commandParameters) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleHelper.cs:line 942
+   at DATABASE.OracleHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleHelper.cs:line 911
+   at DATABASE.OracleProvider.GetScriptOracleDataReader(String script) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleProvider.cs:line 151
+   at DATAACCESS.PXKAccess.GetPXKHermes(List`1 pxks) in D:\Dev\ALSC.TASKMANAGER\DATAACCESS\PXKAccess.cs:line 45
+   at TASK.Services.PXKService.ProcessData() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\PXKService.cs:line 99
+   at TASK.Services.PXKService.CheckProcessPXK() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\PXKService.cs:line 20
+   at TASK.Business.StaticThread.PXKThreadManagement.DoWork() in D:\Dev\ALSC.TASKMANAGER\TASK.Business\StaticThread\PXKThreadManagement.cs:line 29
+
+=========2020-09-12 11:05:28=========
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-00936: missing expression
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   at DATABASE.OracleHelper.ExecuteReader(OracleConnection connection, OracleTransaction transaction, CommandType commandType, String commandText, OracleParameter[] commandParameters, OracleConnectionOwnership connectionOwnership) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleHelper.cs:line 890
+   at DATABASE.OracleHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, OracleParameter[] commandParameters) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleHelper.cs:line 942
+   at DATABASE.OracleHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleHelper.cs:line 911
+   at DATABASE.OracleProvider.GetScriptOracleDataReader(String script) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleProvider.cs:line 151
+   at DATAACCESS.PXKAccess.GetPXKHermes(List`1 pxks) in D:\Dev\ALSC.TASKMANAGER\DATAACCESS\PXKAccess.cs:line 45
+   at TASK.Services.PXKService.ProcessData() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\PXKService.cs:line 99
+   at TASK.Services.PXKService.CheckProcessPXK() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\PXKService.cs:line 20
+   at TASK.Business.StaticThread.PXKThreadManagement.DoWork() in D:\Dev\ALSC.TASKMANAGER\TASK.Business\StaticThread\PXKThreadManagement.cs:line 29
+
+=========2020-09-12 11:11:25=========
+Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-00936: missing expression
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   at DATABASE.OracleHelper.ExecuteReader(OracleConnection connection, OracleTransaction transaction, CommandType commandType, String commandText, OracleParameter[] commandParameters, OracleConnectionOwnership connectionOwnership) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleHelper.cs:line 890
+   at DATABASE.OracleHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, OracleParameter[] commandParameters) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleHelper.cs:line 942
+   at DATABASE.OracleHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleHelper.cs:line 911
+   at DATABASE.OracleProvider.GetScriptOracleDataReader(String script) in D:\Dev\ALSC.TASKMANAGER\DATABASE\OracleProvider.cs:line 151
+   at DATAACCESS.PXKAccess.GetPXKHermes(List`1 pxks) in D:\Dev\ALSC.TASKMANAGER\DATAACCESS\PXKAccess.cs:line 45
+   at TASK.Services.PXKService.ProcessData() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\PXKService.cs:line 99
+   at TASK.Services.PXKService.CheckProcessPXK() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\PXKService.cs:line 20
+   at TASK.Business.StaticThread.PXKThreadManagement.DoWork() in D:\Dev\ALSC.TASKMANAGER\TASK.Business\StaticThread\PXKThreadManagement.cs:line 29
+
+=========2020-09-14 08:46:14=========
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at TASK.Services.PXKService.ProcessData() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\PXKService.cs:line 68
+   at TASK.Services.PXKService.CheckProcessPXK() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\PXKService.cs:line 20
+   at TASK.Business.StaticThread.PXKThreadManagement.DoWork() in D:\Dev\ALSC.TASKMANAGER\TASK.Business\StaticThread\PXKThreadManagement.cs:line 29
+
+=========2020-09-30 16:32:46=========
+System.InvalidOperationException: Sequence contains more than one element
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.Table`1.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at TASK.DATA.tblPXK.GetByPXK(String pxk) in D:\Dev\ALSC.TASKMANAGER\TASK.DATA\Partial\tblPXK.cs:line 23
+   at TASK.Services.PXKService.ProcessData() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\PXKService.cs:line 95
+   at TASK.Services.PXKService.CheckProcessPXK() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\PXKService.cs:line 20
+   at TASK.Business.StaticThread.PXKThreadManagement.DoWork() in D:\Dev\ALSC.TASKMANAGER\TASK.Business\StaticThread\PXKThreadManagement.cs:line 29
+
+=========2020-09-30 16:35:03=========
+System.InvalidOperationException: Sequence contains more than one element
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.Table`1.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at TASK.DATA.tblPXK.GetByPXK(String pxk) in D:\Dev\ALSC.TASKMANAGER\TASK.DATA\Partial\tblPXK.cs:line 23
+   at TASK.Services.PXKService.ProcessData() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\PXKService.cs:line 95
+   at TASK.Services.PXKService.CheckProcessPXK() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\PXKService.cs:line 20
+   at TASK.Business.StaticThread.PXKThreadManagement.DoWork() in D:\Dev\ALSC.TASKMANAGER\TASK.Business\StaticThread\PXKThreadManagement.cs:line 29
+
+=========2020-09-30 16:35:32=========
+System.InvalidOperationException: Sequence contains more than one element
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.Table`1.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at TASK.DATA.tblPXK.GetByPXK(String pxk) in D:\Dev\ALSC.TASKMANAGER\TASK.DATA\Partial\tblPXK.cs:line 23
+   at TASK.Services.PXKService.ProcessData() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\PXKService.cs:line 95
+   at TASK.Services.PXKService.CheckProcessPXK() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\PXKService.cs:line 20
+   at TASK.Business.StaticThread.PXKThreadManagement.DoWork() in D:\Dev\ALSC.TASKMANAGER\TASK.Business\StaticThread\PXKThreadManagement.cs:line 29
+
+=========2020-09-30 16:41:54=========
+System.InvalidOperationException: Sequence contains more than one element
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.Table`1.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at TASK.DATA.tblPXK.GetByPXK(String pxk) in D:\Dev\ALSC.TASKMANAGER\TASK.DATA\Partial\tblPXK.cs:line 23
+   at TASK.Services.PXKService.ProcessData() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\PXKService.cs:line 95
+   at TASK.Services.PXKService.CheckProcessPXK() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\PXKService.cs:line 20
+   at TASK.Business.StaticThread.PXKThreadManagement.DoWork() in D:\Dev\ALSC.TASKMANAGER\TASK.Business\StaticThread\PXKThreadManagement.cs:line 29
+

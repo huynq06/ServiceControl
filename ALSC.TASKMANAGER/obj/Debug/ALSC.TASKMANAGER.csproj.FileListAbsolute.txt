@@ -1,0 +1,5 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\ALSC.TASKMANAGER\bin\Debug\ALSC.TASKMANAGER.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\ALSC.TASKMANAGER\bin\Debug\ALSC.TASKMANAGER.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\ALSC.TASKMANAGER\obj\Debug\ALSC.TASKMANAGER.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\ALSC.TASKMANAGER\obj\Debug\ALSC.TASKMANAGER.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\ALSC.TASKMANAGER\obj\Debug\ALSC.TASKMANAGER.pdb

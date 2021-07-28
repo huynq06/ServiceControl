@@ -1,0 +1,26 @@
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\DATABASE\bin\Debug\DATABASE.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\DATABASE\bin\Debug\DATABASE.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\DATABASE\obj\Debug\DATABASE.csprojResolveAssemblyReference.cache
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\DATABASE\obj\Debug\DATABASE.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\DATABASE\obj\Debug\DATABASE.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\DATABASE\bin\Debug\DATABASE.dll.config
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\DATABASE\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\DATABASE\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\DATABASE\bin\Debug\TASK.Settings.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\DATABASE\bin\Debug\Utils.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\DATABASE\bin\Debug\TASK.Settings.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\DATABASE\bin\Debug\Utils.pdb
+D:\Dev\ALSC.TASKMANAGER\DATABASE\bin\Debug\DATABASE.dll.config
+D:\Dev\ALSC.TASKMANAGER\DATABASE\bin\Debug\DATABASE.dll
+D:\Dev\ALSC.TASKMANAGER\DATABASE\bin\Debug\DATABASE.pdb
+D:\Dev\ALSC.TASKMANAGER\DATABASE\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Dev\ALSC.TASKMANAGER\DATABASE\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\Dev\ALSC.TASKMANAGER\DATABASE\bin\Debug\TASK.Settings.dll
+D:\Dev\ALSC.TASKMANAGER\DATABASE\bin\Debug\Utils.dll
+D:\Dev\ALSC.TASKMANAGER\DATABASE\bin\Debug\TASK.Settings.pdb
+D:\Dev\ALSC.TASKMANAGER\DATABASE\bin\Debug\Utils.pdb
+D:\Dev\ALSC.TASKMANAGER\DATABASE\obj\Debug\DATABASE.dll
+D:\Dev\ALSC.TASKMANAGER\DATABASE\obj\Debug\DATABASE.pdb
+D:\Dev\ALSC.TASKMANAGER\DATABASE\obj\Debug\DATABASE.csproj.AssemblyReference.cache
+D:\Dev\ALSC.TASKMANAGER\DATABASE\obj\Debug\DATABASE.csproj.CoreCompileInputs.cache
+D:\Dev\ALSC.TASKMANAGER\DATABASE\obj\Debug\DATABASE.csproj.CopyComplete

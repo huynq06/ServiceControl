@@ -1,0 +1,12 @@
+=========2021-05-14 21:39:35=========
+Hawb:   Lô hàng: TASK.DATA.AWBByULD Trên chuyến bay: CX2049 được set BQL
+
+=========2021-05-14 21:48:56=========
+Hawb:   Lô hàng: TASK.DATA.AWBByULD Trên chuyến bay: CX2049 được set BQL
+
+=========2021-05-14 21:49:57=========
+Hawb:   Lô hàng: TASK.DATA.AWBByULD Trên chuyến bay: CX2049 được set BQL
+
+=========2021-05-14 21:50:58=========
+Hawb:   Lô hàng: TASK.DATA.AWBByULD Trên chuyến bay: CX2049 được set BQL
+

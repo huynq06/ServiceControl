@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ALSC_FLIGHTCONTROL" Class="FlightControlDbContextDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=10.10.1.10;Initial Catalog=ALSC_FLIGHTCONTROL;User ID=sa" SettingsObjectName="TASK.DATA.Properties.Settings" SettingsPropertyName="ALSC_FLIGHTCONTROLConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ULDAssignLog" Member="ULDAssignLogs">
+    <Type Name="ULDAssignLog">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ULD" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Location" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="StartTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="FinishTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Status" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Location" Member="Locations">
+    <Type Name="Location">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LocationName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Status" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="LocationID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ULD_TYPE" Member="ULD_TYPEs">
+    <Type Name="ULD_TYPE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TimeOperation" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TimeNotify" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ULDByFlight" Member="ULDByFlights">
+    <Type Name="ULDByFlight">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Status" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Flight_ID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="FlightNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ULD_TYPE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LocationID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="StartTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="FinishTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Warning" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="NotifyID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NotifyMessage" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StatusMessage" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TimeToFinish" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Priority" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SHC" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="CheckValue" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ULDID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Flight" Member="Flights">
+    <Type Name="Flight">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FlightID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="FlightNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Schedule" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LandedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Status" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="FLUI_SCHEDULE_DATE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FLUI_SCHEDULE_TIME" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FLUI_LANDED_DATE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FLUI_LANDED_TIME" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FlightType" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FlightTypeOfAirCraft" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SOPTIME" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AlertTime1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AlertTime2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AlertTime3" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FlightLetter" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FinishTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SHCTIME" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AlertSHC1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AlertSHC2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SHCConfig" Member="SHCConfigs">
+    <Type Name="SHCConfig">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Code" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Location" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Priority" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AWBByULD" Member="AWBByULDs">
+    <Type Name="AWBByULD">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ULD_ID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="Flight_ID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="AWB" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SHC" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="CheckValue" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Process" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Lagi_Identity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TimeFinish" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="AWB_ID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="HaveMultiHawb" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HawbInAwb" Member="HawbInAwbs">
+    <Type Name="HawbInAwb">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FlightID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="AWB_ID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="HAWB" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CheckValue" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Process" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TimeFinish" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Bql" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Lagi_Identity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Fast" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FlightConfig" Member="FlightConfigs">
+    <Type Name="FlightConfig">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FlightNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FlightType" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FlightTypeOfAirCraft" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SopTime" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AlertTime1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AlertTime2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AlertTime3" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SHCTIME" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AlertSHC1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AlertSHC2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FinalLoad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

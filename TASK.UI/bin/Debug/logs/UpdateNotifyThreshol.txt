@@ -1,0 +1,8 @@
+=========2021-01-10 00:10:41=========
+System.Data.Linq.ChangeConflictException: Row not found or changed.
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at TASK.DATA.ULDByFlight.UpdateStatus(ULDByFlight uld) in D:\Dev\ALSC.TASKMANAGER\TASK.DATA\Partial\ULDByFlight.cs:line 44
+   at TASK.Services.NotifyThresholdService.UpdateThreshold() in D:\Dev\ALSC.TASKMANAGER\TASK.Services\NotifyThresholdService.cs:line 61b3a0ac73-5ff3-4056-8c01-204ce6d58c6c
+

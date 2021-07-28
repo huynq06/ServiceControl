@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ALSC_SyncData" Class="DBContextDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=10.10.1.10;Initial Catalog=ALSC_SyncData;User ID=sa" SettingsObjectName="TASK.DATA.Properties.Settings" SettingsPropertyName="ALSC_SyncDataConnectionString3" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CarNumber" Member="CarNumbers">
+    <Type Name="CarNumber">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CarNumber" Member="CarNumber1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IssueID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IssueKey" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Condition" Member="Conditions">
+    <Type Name="Condition">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="checked" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="mandatory" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="[option]" Member="option" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="id_condittion" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rank" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="issue_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="issue_key" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.form" Member="forms">
+    <Type Name="form">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="author" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AWB" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="quantity" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="weight" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="booking" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="custom_status" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="car_number" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="phone_number" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="issue_key" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="createdDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="lastUpdated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CutoffTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.IssueS" Member="Issues">
+    <Type Name="Issue">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="[key]" Member="key" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="self" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="fields_summary" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="fields_duedate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="fields_created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="fields_reporter_displayName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fields_issuetype_description" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="fields_issuetype_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fields_status_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fields_status_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fields_status_statusCategory_name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="fields_status_statusCategory_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[Log]" Member="Logs">
+    <Type Name="Log">
+      <Column Name="LogID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LogType" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LogMessage" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="LogTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LogTrace" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="LogSource" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Status" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Issue_detail" Member="Issue_details">
+    <Type Name="Issue_detail">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="[key]" Member="key" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="self" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="fields_fixVersions_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fields_lastViewed" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="fields_priority_name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="fields_priority_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fields_assignee_emailAddress" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="fields_assignee_displayName" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="fields_status_name" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="fields_status_statusCategory_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fields_status_statusCategory_key" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="fields_status_statusCategory_name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="fields_status_statusCategory_colorName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="fields_creator_name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="fields_creator_displayName" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="fields_reporter_name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="fields_reporter_displayName" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="fields_created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="fields_summary" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="fields_duedate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="fields_status_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DriverName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DriverID" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Introduction" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="pieces" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="weight" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AWB" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Dest" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Booking" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Agent" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="PhoneNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CutoffTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Comment" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="TimeTransition" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SortValue" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FlightType" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VCT" Member="VCTs">
+    <Type Name="VCT">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LABS_IDENT_NO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LABS_AWB" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="LABS_QUANTITY_BOOKED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LABS_WEIGHT_BOOKED" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="AGENT_NAME" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="BOOKING_FLIGHT" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LABS_CREATED_AT" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LOADING" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AWB_STATUS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LAST_GROUP" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LABS_EXPECT" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LABS_RECIEVED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ISSUE_STATUS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LOCATION" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LABS_PROCESS_AT" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SortValue" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CutOffTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CargoType" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LABS_DIM_AT" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="VCT_DATE" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="FlightID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ConfirmStatus" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LABS_CONFIRMED_AT" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FLightFlup" Member="FLightFlups">
+    <Type Name="FLightFlup">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FlightID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="STD" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ETD" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LAT" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="FLightNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FlightAirCraffType" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FlightType" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BookingFlight" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FinalLoad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FinishTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TotalULD" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RemainULD" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NeedPosition" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ManPower" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Remark" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="TotalPosition" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FinishTimePerUld" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UldLoaded" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FlightStatus" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FlightDeleted" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

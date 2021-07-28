@@ -1,0 +1,16 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\PluggableModulesInterface\obj\Debug\PluggableModulesInterface.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\PluggableModulesInterface\bin\Debug\PluggableModulesInterface.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\PluggableModulesInterface\bin\Debug\PluggableModulesInterface.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\PluggableModulesInterface\bin\Debug\Utils.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\PluggableModulesInterface\bin\Debug\Utils.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\PluggableModulesInterface\obj\Debug\PluggableModulesInterface.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\ALSC.TASKMANAGER\PluggableModulesInterface\obj\Debug\PluggableModulesInterface.pdb
+D:\Dev\ALSC.TASKMANAGER\PluggableModulesInterface\bin\Debug\PluggableModulesInterface.dll
+D:\Dev\ALSC.TASKMANAGER\PluggableModulesInterface\bin\Debug\PluggableModulesInterface.pdb
+D:\Dev\ALSC.TASKMANAGER\PluggableModulesInterface\bin\Debug\Utils.dll
+D:\Dev\ALSC.TASKMANAGER\PluggableModulesInterface\bin\Debug\Utils.pdb
+D:\Dev\ALSC.TASKMANAGER\PluggableModulesInterface\obj\Debug\PluggableModulesInterface.dll
+D:\Dev\ALSC.TASKMANAGER\PluggableModulesInterface\obj\Debug\PluggableModulesInterface.pdb
+D:\Dev\ALSC.TASKMANAGER\PluggableModulesInterface\obj\Debug\PluggableModulesInterface.csproj.AssemblyReference.cache
+D:\Dev\ALSC.TASKMANAGER\PluggableModulesInterface\obj\Debug\PluggableModulesInterface.csproj.CoreCompileInputs.cache
+D:\Dev\ALSC.TASKMANAGER\PluggableModulesInterface\obj\Debug\PluggableModulesInterface.csproj.CopyComplete

@@ -1,0 +1,40 @@
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Task.WindowsService.exe.config
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Task.WindowsService.exe
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Task.WindowsService.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\Task.WindowsService\obj\Debug\Task.WindowsService.csprojResolveAssemblyReference.cache
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\Task.WindowsService\obj\Debug\Task.WindowsService.ProjectInstaller.resources
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\Task.WindowsService\obj\Debug\Task.WindowsService.csproj.GenerateResource.Cache
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\Task.WindowsService\obj\Debug\Task.WindowsService.exe
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\Task.WindowsService\obj\Debug\Task.WindowsService.pdb
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Task.WindowsService.exe.config
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\obj\Debug\Task.WindowsService.exe
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\obj\Debug\Task.WindowsService.pdb
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Task.WindowsService.exe
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\TASK.Business.dll
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\PluggableModulesInterface.dll
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\TASK.Settings.dll
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\TASK.DATA.dll
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\TASK.Services.dll
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Utils.dll
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\StorageManagement.dll
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\DATAACCESS.dll
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\TASK.Model.dll
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Newtonsoft.Json.dll
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\DATABASE.dll
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\TASK.Business.pdb
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\PluggableModulesInterface.pdb
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\TASK.Settings.pdb
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\TASK.DATA.pdb
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\TASK.Services.pdb
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Utils.pdb
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\StorageManagement.pdb
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\DATAACCESS.pdb
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\TASK.Model.pdb
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Newtonsoft.Json.xml
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\DATABASE.pdb
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\obj\Debug\Task.WindowsService.ProjectInstaller.resources
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\obj\Debug\Task.WindowsService.csproj.GenerateResource.Cache
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\bin\Debug\Task.WindowsService.pdb
+D:\Dev\ALSC.TASKMANAGER\Task.WindowsService\obj\Debug\Task.WindowsService.csprojResolveAssemblyReference.cache

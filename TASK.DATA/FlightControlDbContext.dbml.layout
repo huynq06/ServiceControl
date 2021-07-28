@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 10.875" name="FlightControlDbContext">
+  <DataContextMoniker Name="/FlightControlDbContextDataContext" />
+  <nestedChildShapes>
+    <classShape Id="160c0316-c483-48b2-9f6c-e468c4c5c544" absoluteBounds="2.75, 5.125, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/FlightControlDbContextDataContext/ULDAssignLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="91929460-a507-476b-8a08-6dd5f3d4f7f4" absoluteBounds="2.7649999999999997, 5.585, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="66c1438e-6ba1-4495-9842-9ce2cc3cd33e" absoluteBounds="3, 3.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/FlightControlDbContextDataContext/Location" />
+      <nestedChildShapes>
+        <elementListCompartment Id="99c3328a-70c4-472c-a895-31e19dcfbd5d" absoluteBounds="3.0149999999999997, 3.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2b626797-f89c-48ad-b6a9-df00c1c8b521" absoluteBounds="2.75, 0.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/FlightControlDbContextDataContext/ULD_TYPE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eb188f58-d39c-418f-b1b3-b106c0f1c5d4" absoluteBounds="2.765, 1.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bfec1bfb-f7d1-447c-a7c6-ca49d5dd55d0" absoluteBounds="0.5, 0.5, 2, 4.4631168619791666">
+      <DataClassMoniker Name="/FlightControlDbContextDataContext/ULDByFlight" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d82eb0ff-1d02-424e-8b57-eb33fed8e52f" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 3.903116861979167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="96e15a1e-0d79-48f7-a1ea-adfbc8ae3408" absoluteBounds="5.125, 1.75, 2, 5.0400211588541657">
+      <DataClassMoniker Name="/FlightControlDbContextDataContext/Flight" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c31c8d67-e9f6-4e7f-b98b-52dc10767e3a" absoluteBounds="5.14, 2.21, 1.9700000000000002, 4.4800211588541661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f15377ba-b987-4732-a362-de299779cc5e" absoluteBounds="7.375, 4.875, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/FlightControlDbContextDataContext/SHCConfig" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e3408615-492f-401a-b874-e204e087713b" absoluteBounds="7.39, 5.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ad2aec83-13b7-493b-86a3-9e85da1e6930" absoluteBounds="6, 7.75, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/FlightControlDbContextDataContext/AWBByULD" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4b19697a-a0a8-48e8-8915-33a7fb25d789" absoluteBounds="6.015, 8.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5d20db58-3ed3-41dd-a409-460b01b82272" absoluteBounds="0.5, 5.25, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/FlightControlDbContextDataContext/HawbInAwb" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e0b62851-8961-4f65-bdac-c3984c40c67d" absoluteBounds="0.51500000000000012, 5.71, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a3cc96f8-703a-422c-bba4-6d6b7afffb4a" absoluteBounds="7.5, 0.875, 2, 3.1170068359375">
+      <DataClassMoniker Name="/FlightControlDbContextDataContext/FlightConfig" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5aac9214-660a-437a-b17e-905c35af6894" absoluteBounds="7.515, 1.335, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,11 @@
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\Utils\bin\Debug\Utils.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\Utils\bin\Debug\Utils.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\Utils\obj\Debug\Utils.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\Utils\obj\Debug\Utils.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\Utils\obj\Debug\Utils.csprojResolveAssemblyReference.cache
+D:\Dev\ALSC.TASKMANAGER\Utils\bin\Debug\Utils.dll
+D:\Dev\ALSC.TASKMANAGER\Utils\bin\Debug\Utils.pdb
+D:\Dev\ALSC.TASKMANAGER\Utils\obj\Debug\Utils.dll
+D:\Dev\ALSC.TASKMANAGER\Utils\obj\Debug\Utils.pdb
+D:\Dev\ALSC.TASKMANAGER\Utils\obj\Debug\Utils.csproj.AssemblyReference.cache
+D:\Dev\ALSC.TASKMANAGER\Utils\obj\Debug\Utils.csproj.CoreCompileInputs.cache

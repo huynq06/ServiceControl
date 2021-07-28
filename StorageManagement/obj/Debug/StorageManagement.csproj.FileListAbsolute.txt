@@ -1,0 +1,16 @@
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\StorageManagement\bin\Debug\StorageManagement.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\StorageManagement\bin\Debug\StorageManagement.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\StorageManagement\obj\Debug\StorageManagement.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\StorageManagement\obj\Debug\StorageManagement.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\StorageManagement\bin\Debug\Newtonsoft.Json.dll
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\StorageManagement\bin\Debug\Newtonsoft.Json.xml
+C:\Users\LENOVO\Documents\Visual Studio 2015\Projects\ALSC.TASKMANAGER\StorageManagement\obj\Debug\StorageManagement.csprojResolveAssemblyReference.cache
+D:\Dev\ALSC.TASKMANAGER\StorageManagement\bin\Debug\StorageManagement.dll
+D:\Dev\ALSC.TASKMANAGER\StorageManagement\bin\Debug\StorageManagement.pdb
+D:\Dev\ALSC.TASKMANAGER\StorageManagement\bin\Debug\Newtonsoft.Json.dll
+D:\Dev\ALSC.TASKMANAGER\StorageManagement\bin\Debug\Newtonsoft.Json.xml
+D:\Dev\ALSC.TASKMANAGER\StorageManagement\obj\Debug\StorageManagement.dll
+D:\Dev\ALSC.TASKMANAGER\StorageManagement\obj\Debug\StorageManagement.pdb
+D:\Dev\ALSC.TASKMANAGER\StorageManagement\obj\Debug\StorageManagement.csproj.AssemblyReference.cache
+D:\Dev\ALSC.TASKMANAGER\StorageManagement\obj\Debug\StorageManagement.csproj.CoreCompileInputs.cache
+D:\Dev\ALSC.TASKMANAGER\StorageManagement\obj\Debug\StorageManagement.csproj.CopyComplete

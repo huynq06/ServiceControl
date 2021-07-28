@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 11.625" name="PXKControlDbContext">
+  <DataContextMoniker Name="/PXKControlDbContextDataContext" />
+  <nestedChildShapes>
+    <classShape Id="01383a00-9f97-45cb-8619-5b2d26100928" absoluteBounds="3, 0.5, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/PXKControlDbContextDataContext/tblPXK" />
+      <nestedChildShapes>
+        <elementListCompartment Id="567d3caf-3e0a-4293-bef4-9d8887d712c7" absoluteBounds="3.0149999999999997, 0.96, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6ea1625d-bfb7-404f-b13c-7c9d0922869f" absoluteBounds="5.5, 2.75, 2, 7.7322412109375005">
+      <DataClassMoniker Name="/PXKControlDbContextDataContext/tblDangKyVaoRa" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d9609a40-57ea-4c5f-af6b-ce9179fb2f3b" absoluteBounds="5.515, 3.21, 1.9700000000000002, 7.1722412109375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="89575c89-680f-40c8-b69d-6ca4d8d602e0" absoluteBounds="5.375, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/PXKControlDbContextDataContext/LocationConfig" />
+      <nestedChildShapes>
+        <elementListCompartment Id="67ede03d-1ca1-47ab-b103-93438f56a5e6" absoluteBounds="5.39, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="25114fb0-8a21-4b7a-bed4-6a1c462b44d7" absoluteBounds="3, 4.5, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/PXKControlDbContextDataContext/tblTicketStatus" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4248cde6-1756-424a-86f8-acbd11ad585c" absoluteBounds="3.015, 4.96, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6bdb347b-a2c0-47f7-afd6-81e135213e4f" absoluteBounds="3.75, 8.125, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/PXKControlDbContextDataContext/CallTruck" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b2936934-f4e9-40ff-b7f6-c50e47439878" absoluteBounds="3.765, 8.585, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4d18d7fc-d38f-4139-8c59-f97850cc837f" absoluteBounds="0.5, 1.375, 2, 5.2323225911458326">
+      <DataClassMoniker Name="/PXKControlDbContextDataContext/tblDangKyGoiXe" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fc76444c-09eb-4ebf-8664-a4c16d466244" absoluteBounds="0.51500000000000057, 1.835, 1.9700000000000002, 4.672322591145833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QMSTickets" Class="LogCapSoDbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=10.10.1.10;Initial Catalog=QMSTickets;User ID=sa" SettingsObjectName="TASK.DATA.Properties.Settings" SettingsPropertyName="QMSTicketsConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.LogCapSo" Member="LogCapSos">
+    <Type Name="LogCapSo">
+      <Column Name="QNO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="MAWB" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="HAWB" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="SPECIAL" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FLIGHT" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="FLIGHTDATE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="AWBRemain" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
